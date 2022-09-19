@@ -1,0 +1,244 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url('.//pic/pic21.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.navbar {
+    margin: auto;
+    display: flex;
+    z-index: 5;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+
+.navbar ul li {
+    padding: 9px;
+    margin: 1px;
+    color: blue;
+    font-weight: 15px;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+}
+
+#offcanvasScrollingLabel {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-fade {
+    z-index: 3;
+}
+
+.d-block {
+    border-bottom: 8px solid black;
+    position: relative;
+    bottom: 130px;
+    height: 540px;
+    opacity: 1;
+    z-index: 7;
+}
+
+.img img {
+    width: 206px;
+    height: 200px;
+    border: 6px solid black;
+    position: relative;
+    left: 42%;
+    bottom: 236px;
+    z-index: 4;
+    border-radius: 100px;
+}
+
+.img img:hover {
+    width: 207px;
+    height: 202px;
+    box-shadow: 2px 1px 10px 3px rgb(32, 19, 19);
+}
+
+.card {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+/*body items*/
+
+.offcanvas {
+    position: static;
+    top: 100px;
+    left: 50px;
+    height: 800px;
+}
+
+.card-text {
+    height: 300px;
+    overflow: scroll;
+}
+
+/*hr*/
+.border {
+    position: relative;
+    bottom: 100px;
+}
+
+/*about me*/
+.aboutme {
+    display: flex;
+    margin: 30px;
+    padding: 40px;
+    position: relative;
+    bottom: 250px;
+}
+
+.about {
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.text-success {
+    position: relative;
+    bottom: 200px;
+
+}
+
+/* about me -> traning*/
+.text-center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 280px;
+}
+
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 280px;
+}
+
+.row {
+    margin-top: 246px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.img-thumbnail:hover {
+    box-shadow: 2px 4px 7px 5px grey;
+}
+
+/*skills*/
+
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.skills-display {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-heading {
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 219px;
+}
+
+.skill-progress {
+    height: auto;
+    width: 10rem;
+    border-radius: 1.2rem;
+    background-color: #a19999;
+    margin: 2rem;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.percentage {
+
+    height: inherit;
+    border-radius: .8rem;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+}
+
+.skill-name {
+    color: white;
+    font-size: 1rem;
+    margin: .5rem;
+
+}
+
+#Scala div {
+    width: 45%;
+    background-color: #2857a4;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+#HTML div {
+    width: 85%;
+    background-color: #ec4d1c;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+#CSS div {
+    width: 75%;
+    background-color: #93738c;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+#javascript div {
+    width: 55%;
+    background-color: #0b8176;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+#NodeJs div {
+    width: 35%;
+    background-color: #2857a4;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+#Mysql div {
+    width: 30%;
+    background-color: #93738c;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+#PHP div {
+    width: 50%;
+    background-color: #93738c;
+    box-shadow: 1px 1px 4px 1px #a1a18f;
+}
+
+.table {
+    position: relative;
+    bottom: 200px;
+}
